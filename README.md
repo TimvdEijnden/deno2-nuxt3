@@ -6,6 +6,19 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 Make sure to check out the **[deno.json](deno.json)** file to see how the tasks are configured.
 
+## Install/Upgrade Deno 2
+
+Make sure to install deno 2.0:
+
+```sh
+curl -fsSL https://deno.land/install.sh | sh
+```
+
+If already installed upgrade to latest
+```sh
+deno upgrade
+```
+
 ## Setup with deno 2
 
 Clone the repository:
@@ -16,7 +29,7 @@ git clone https://github.com/TimvdEijnden/deno2-nuxt3.git
 
 Make sure to install the dependencies using deno:
 
-```bash
+```sh
 deno install
 ````
 
@@ -24,7 +37,7 @@ deno install
 
 Start the development server on `http://localhost:3000`:
 
-```bash
+```sh
 deno task dev
 ```
 
@@ -32,13 +45,13 @@ deno task dev
 
 Build the application for production:
 
-```bash
+```sh
 deno task build
 ```
 
 Preview the production build on `http://localhost:3000`:
 
-```bash
+```sh
 deno task preview
 ```
 
