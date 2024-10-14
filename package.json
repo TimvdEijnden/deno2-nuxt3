@@ -1,0 +1,16 @@
+{
+  "name": "deno2-nuxt",
+  "author": "Tim van den Eijnden",
+  "type": "module",
+  "scripts": {
+    "build": "echo use 'deno task build'",
+    "dev": "echo use 'deno task dev'",
+    "generate": "echo use 'deno task generate'",
+    "preview": "echo use 'deno task preview'"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}

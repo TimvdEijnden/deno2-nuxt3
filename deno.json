@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "NITRO_PRESET=deno_server deno --allow-sys --allow-env --allow-read --allow-write --allow-run --allow-ffi npm:nuxt build",
+    "dev": "deno --allow-sys --allow-env --allow-read --allow-write --allow-net --allow-run npm:nuxt dev",
+    "generate": "deno --allow-sys --allow-env --allow-read --allow-write --allow-ffi --allow-run npm:nuxt generate",
+    "preview": "deno task --config .output/deno.json start",
+    "postinstall": "deno --allow-sys --allow-env --allow-read --allow-write --allow-net --allow-ffi --allow-run npm:nuxt prepare"
+  }
+}
